@@ -534,7 +534,7 @@ main{
 }
 @media(max-width: 500px)
 {
-   .text{
+   .text p{
        font-size:36px;
    }
 }
