@@ -1,0 +1,534 @@
+/*Стили для карусели (рекомендуемые разработчиком)*/
+.glider-contain {
+    box-sizing: border-box
+}
+
+.glider-contain {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    
+    padding-bottom: 4%;
+    
+}
+
+.glider-slide img {
+    width: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;    
+}
+img{
+    width: 100%;
+}
+
+main{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+.title_main{
+    display: flex;
+    flex-direction: row;
+    padding-left:3%;
+    margin-right: 0px;
+    
+}
+
+.title_main .text{
+    margin: auto;
+    
+    display:flex;
+    flex-direction: column;
+    font-size:56px;
+}
+
+.title_main #title{
+    display: inline;
+    font-family: 'Comfortaa', cursive;
+}
+.title_main img{
+    width: 80%;
+    padding-top:15px;
+}
+.Button_join{
+    color:#fff;
+    width: 192px;    
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #18A0FB;
+    background-color: #18A0FB;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-decoration: none;
+    
+    font-size:15px;
+}
+#h1_about{
+    padding:1%;
+}
+.about{
+    display: flex;    
+    padding:1%;
+    
+}
+.about h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    /* or 150% */
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+.about h2{
+    padding-top: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.015em;
+}
+
+
+.about p{
+    display: inline-block;
+    width:100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+    
+}
+
+
+.rasp{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 50px;
+}
+.rasp img{
+    width:30%;
+    min-width: 300px;
+    margin: auto;
+}
+.rasp #text{
+    margin: auto;
+    max-width: 686px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+
+    letter-spacing: -0.015em;    
+}
+#line{/*линия афишы*/
+	display: inline-block;
+	margin-top: 50px;
+	
+    width: 100%;
+    height: 100px;
+	background-color:   #C3EDF3;
+	border: 0px;	
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 30px;
+    /* or 31% */
+    text-align: center;
+    letter-spacing: -0.015em;
+    padding:0px;
+    padding-top: 50px;
+    color: #000000;
+}
+
+.afisha td{
+    padding:80px 97px;
+}
+.Button_more{
+    color:#fff;
+    
+    max-width: 169px;    
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #5891B7;
+    background-color: #5891B7;
+    
+    border-radius: 10px;
+    text-decoration: none;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+#afisha{
+    display: inline-block;
+    width: 100%;
+}
+#afisha .deskrip{    
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    display: inline-block;
+    width:50%;
+}
+#imgDsleftCol{
+    display: none;
+}
+.tr{
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+    padding:1%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.8);
+
+}
+#afisha img{
+    width: 50%;
+    min-width: 200px;
+}
+#ds-left{
+    padding-right: 0px;
+    padding-left: 30px;
+}
+.amazon_scroller{
+    padding: 0px;
+    margin: auto;
+    margin-top: 100px;
+	border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -khtml-border-radius: 10px;
+   
+}
+#title_amazon{
+    /* Sub-page H1 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #000000;
+
+}
+#amazon_scroller2{
+    display: none;
+}
+.amazon_scroller .amazon_scroller_nav{
+    position: absolute;
+}
+.amazon_scroller .amazon_scroller_nav li{
+    cursor: pointer;
+    position: absolute;
+    
+}
+.amazon_scroller .amazon_scroller_mask{
+    position: absolute;
+    margin-left: 30px;
+    margin-right: 30px;
+    overflow: hidden;
+}
+.amazon_scroller ul{
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+.amazon_scroller ul li{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    display:inline;
+}
+.amazon_scroller ul li a{
+    text-decoration: none;
+}
+.amazon_scroller ul li a:hover{
+    text-decoration: underline;
+}
+.amazon_scroller ul li a img{
+    border: none;
+}
+#cons{
+    display: flex;
+    flex-direction: row;
+}
+.conface{
+    display: flex;
+    width: 25%;
+    border: #000000 1px solid;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.conface img{
+    max-height: 400px;
+}
+.faname{
+    padding-top:30px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+.dolzh{
+    padding-bottom:30px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+#cons_main{
+    margin-top: 20%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+
+
+.zayavka{
+    margin-top:200px;
+    margin-bottom: 100px;    
+}
+.zayavka h1{
+    /* Sub-page H1 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+.zayavka p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 50px;
+    /* or 139% */
+
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+.zayavka #box{
+    max-width: 1000px;
+    min-height: 300px;
+    border: 1px solid black;
+    margin: auto;
+    
+    padding: 5%;
+}
+.zayavka #box h4{
+    /* Body H4 */
+    margin-top: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+.zayavka input{
+    margin-bottom: 30px;
+    height:30px;
+}
+.zayavka #name,#lname{   
+    width:41.85%;       
+    
+}
+.zayavka #name{
+    margin-right:5%;
+}
+.zayavka #email{
+    width:90%;
+}
+.zayavka #age{
+    max-width:120;
+}
+
+@media(max-width:1350px)
+{
+    #ds-left{
+        padding: 0px;
+    }
+    .tr{
+        flex-direction: column;
+        padding-left: 1%;
+    }
+    #trReverse
+    {
+        flex-direction: column-reverse;
+    }
+    #afisha .deskrip{
+        width:90%;
+
+    }
+    .tr img{
+        margin: auto;
+    }
+    #line{
+        font-size: 75px;
+    }
+    .title_main img{
+        display: none;
+    }
+    .title_main{
+        background-image: url(image5.png);
+        background-size: cover;
+         
+    }
+    .text
+    {    
+        padding-top:10%;
+        padding-bottom:10%;
+    }
+}
+@media(max-width:1100px)
+{
+    .title_main .text{
+        font-size: 46px;
+    }
+    #line{
+        font-size: 56px;
+    }
+    .zayavka #box
+    {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+   
+    
+}
+@media(max-width:900px)
+{
+    #cons{
+        display: flex;
+        flex-direction: column;
+    }
+    .conface{
+        max-width:340px;
+        width:70%;
+        
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:800px)
+{
+    #col-left p{
+        font-size:16px;
+    }
+    #col-left h2{
+        font-size:20px;
+    }
+    #col-right p{
+        font-size:16px;
+    }
+    #col-right h2{
+        font-size:20px;
+    }
+    .rasp p{
+        font-size:16px;
+    }
+    #line{
+        font-size: 36px;
+        margin-top: 20px;
+        height:50px;
+        padding:20px 0px;
+    }
+    #title_amazon{
+        font-size: 36px;
+    }
+    
+    .zayavka h1{
+        font-size:36px;
+    }
+    .zayavka p{
+        font-size:20px;
+    }
+    
+}
+@media(max-width:600px)
+{
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .rasp{
+        flex-direction: column;
+    }
+}

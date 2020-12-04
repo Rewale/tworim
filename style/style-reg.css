@@ -1,0 +1,86 @@
+
+h1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 36px;
+    /* or 75% */
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+#box{
+    max-width: 1000px;
+    min-height: 300px;
+    
+    margin: auto;
+    
+    margin: auto;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    
+    padding: 20px;
+    padding-right: 30px;
+}
+#box .input-simple{
+    font-family: Montserrat;
+    margin-bottom: 30px;
+    height:50px;
+    width: 100%;
+    font-size: 15px;
+    padding: 5px;
+}
+#box #about{
+    height:150px;
+}
+.Button_join{
+    color:#fff;
+    width: 100%;    
+    padding: 20px;
+    text-align: center;
+    font-family: Montserrat;
+    background-color: black;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-decoration: none;
+    
+    font-size:15px;
+}
+#check{
+    border: #C3CBCD;
+    width:20px;
+    height:20px;
+    
+}
+#about{
+    font-family: Montserrat;
+    height: 100px;
+    width:100%;
+    font-size: 15px;
+    padding: 5px;
+    resize: none;
+}
+#hohochu{
+    display: flex;
+    flex-direction: row;
+}
+#hohochu p{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: 0.2px;
+
+    /* Light / Black */
+
+    color: #373F41;
+}

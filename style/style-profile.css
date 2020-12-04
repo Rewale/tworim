@@ -1,0 +1,224 @@
+body{
+    padding:0px;
+    margin: 0px;
+}
+main{
+    margin: 2%;
+}
+.main-title{
+    background-image: url('Aivazovsky_5.png');
+    background-attachment: local;
+    background-size: cover;
+    width:100%;
+    display: inline-block;
+    
+    padding-bottom: 15%;
+    max-height: 500px;
+}
+.main-title #name{
+    
+    padding-top: 20%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;  
+    letter-spacing: -0.015em;
+    padding-left: 7%;
+    color: #FFFFFF;
+
+}
+.main-title #info{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 50px;
+    /* or 139% */
+    padding-left: 7%;
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+    padding-bottom: 10%;
+}
+.childhood{
+    margin-top:50px;
+    margin-bottom: 100px;
+}
+.childhood h1{
+    /* Sub-page H1 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    /* or 150% */
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+
+}
+.childhood p{
+    /* Body P */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 50px;
+    /* or 139% */
+
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+.learning{
+    display: flex;
+    flex-direction: row;
+}
+.learning img{
+    width:40%;
+    height: 100%;
+}
+.learning #text{
+    margin-left: 30px;    
+}
+.learning h1{
+    text-align: center;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 80px;
+    /* or 143% */
+    padding-top: 0px;
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+.learning p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 50px;
+    /* or 208% */
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+.facts{
+    padding-top:65px ;
+    background-image: url(facts.png);
+    background-size: cover;
+    
+    min-height: 1060px;
+}
+.facts h1{
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 50px;
+    /* or 69% */
+
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+}
+#sides{
+    display: flex;
+    flex-direction: row;
+    
+}
+#sides p{
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 50px;
+    /* or 139% */
+    max-width: 900px;
+    letter-spacing: -0.015em;
+    margin-left: 2%;
+    color: #FFFFFF;
+
+}
+@media(max-width:1500px){
+    .main-title #name{
+        font-size:48px;
+    }
+}
+@media(max-width:1270px){
+    .main-title #name{
+      display: block;
+      text-align: center;  
+      padding-top: 20px;
+      font-size:36px;
+      padding-bottom: 20%;
+    }
+}
+@media(max-width:1100px){
+    #sides{
+        flex-direction: column;
+    }
+    .learning{
+        flex-direction: column;
+    } 
+    .learning img{
+        margin: auto;
+    }
+    #learnRev{
+        flex-direction: column-reverse;
+    }   
+    #fullimg{
+        width:100%;
+        max-height: 300px;
+        
+    }
+}
+@media(max-width:980px){
+    .main-title #name{
+        font-size:24px;
+    }
+}
+@media(max-width:850px){
+    #sides p{
+        font-size:24px
+    }
+    .facts h1{
+        font-size:36px;
+    }
+    .learning #text{
+        margin-left: 0px;
+    }
+    #text h1{
+        font-size: 30px;
+    }
+    .childhood p{
+        font-size:24px;    
+    }
+}
+@media(max-width:600px)
+{
+    .main-title #name{
+        display: block;
+        text-align: center;  
+        padding-top: 20px;
+        font-size:20px;
+        padding-bottom: 30px;
+        padding-left: 0px;
+    }
+    .main-title #info {
+        font-size: 16px;
+    }
+    .main-title{
+        font-size: 16px;
+        padding-bottom: 0px;
+    }
+}

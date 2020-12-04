@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Арт-пермь</title>
+    <link rel="stylesheet" href="style/glider.css">
+    <link rel="stylesheet" href="style/style-header-footer.css">
+    <link rel="stylesheet" href="style/style-art.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+            
+        <nav class="main-nav">
+            <ul class="list">
+                <a href='#'><img src="imgs/Sample Logo.png" alt="logo" class="logo-header"></a>
+                <li class="item">
+                    <a href="profile.html" id="profile_artist">Профили художников</a>
+                    
+                </li>
+                
+                <li class="item">
+                    <a href = "gallery.html">Галерея</a>
+                </li>                    
+            </ul>
+        </nav>
+        
+        <nav class="secondary-nav">
+            
+            <ul class="list">
+                
+                <li class="Button_Enter"><a href='signin.html'><div>Войти</div></a></li>
+                <li class="Button_Sign">
+                    <a href='regist.html'><div>Регистрация</div></a>
+                    
+                </li>                
+            </ul>
+        </nav>        
+        
+    
+    </header>
+    <body>
+        <section class="main-title">
+            <h1>Арт-Пермь</h1>
+            <p id="bold">Когда: </p><p>2–11 февраля  2019</p><br>
+            <p id="bold">Где: </p><p>Пермская ярмарка</p><br>
+            <p id="bold">О чем: </p>
+            <p>
+                22-я Международная выставка-продажа живописи, графики, 
+                скульптуры, фотографии и изделий декоративно-прикладного искусства
+            </p><br>
+        </section>
+        <main>
+            <section class="info">
+                <p>
+                    Художественный салон «Арт-Пермь» — одно из самых ожидаемых событий культурной жизни города. Здесь художники демонстрируют своё мастерство, а посетители могут приобрести произведения искусства, найти радость и вдохновение.
+                    <br>
+                    Грядущая «АРТ-Пермь — 2019» станет не только выставочным, но и исследовательским проектом, в результате которого мы вместе с вами выведем новые формулы в творчестве. Результат скажет сам за себя, а пока предстоит работа по изысканиям, экспериментам и классификации.
+                </p>
+                
+                <img id="img-center" src="imgs/art4.png">
+                
+                
+                <p>
+                    Генеральная ассамблея ООН объявила 2019 год Международным годом периодической таблицы химических элементов в честь периодического закона, открытого Дмитрием Менделеевым в 1869 году.
+                </p>
+                <p>
+                    Именно поэтому в рамках выставки «АРТ-Пермь — 2019» скульпторы, художники, фотохудожники, мастера, поэты, ценители искусства внесут новые смыслы в подачу, восприятие и осознание. 
+                </p>
+                <ul>
+                    <li class="item">химия отношений, ощущений и реакций</li>
+                    <li class="item">химические соединения в сплавах, смешение молекул красок</li>
+                    <li class="item">как в человеке рождаются стихи, идеи для картин, скульптур, инсталляций?
+                    </li>
+                    <li class="item">какое химическое соединение заставляет нас чувствовать вдохновение?
+                    </li>
+                    <li class="item">вычисление внутреннего состава произведения, строение материи, закономерности изменений стиля автора, разложения и превращения веществ в эмоциях, взаимоотношениях, мыслях и реакциях, а также закономерности образования новых идей, проектов
+                    </li>
+                </ul>
+            </section> 
+            <h1 id='picsh1'>Некоторые из представленных картин</h1> 
+            <div class="glider-contain">
+                <div class="glider">
+                    <div><img src="imgs/art1.jpg" alt="title"/></div>
+                    <div><img src="imgs/art2.jpg" alt="title"/></div>
+                    <div><img src="imgs/art3.jpg" alt="title"/></div>
+                </div>
+                <button class="glider-prev">&laquo;</button>
+                <button class="glider-next">&raquo;</button>
+                <div id="dots"></div>
+            </div>     
+            
+        </main>
+        
+        <footer>
+            <a href = "#"><img  src="imgs/logo footer.svg" alt="logo"></a>
+            <nav class="footer-nav">           
+                
+                <ul class="list">                
+                    <li class="item"><a href = "#">Афиша</a></li>
+                    <li class="item"><a href = "#">Расписание</a></li>                
+                    <li class="item"><a href = "#">Галерея</a></li>
+                    <li class="item"><a href = "#">Регестрация </a></li>
+                    <li class="item"><a href = "#">Вход</a></li>
+                </ul>
+            </nav>        
+            
+            <p class="footer-text">
+                ТворимВместе, 2020<br>
+                Мы будем ждать вас с 10 до 20 по адресу г.Пермь, Ласьвинская, 6, каб. 310
+            </p>            
+        </footer>
+        <script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script  src="js/glider.js"></script>
+        <script  src="js/main-art.js"></script>  
+    </body>
+</body>
+</html>

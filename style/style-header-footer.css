@@ -1,0 +1,251 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.secondary-nav
+{
+    margin-top:15px ;
+}
+header{
+    width: 90%;   
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+#listOfArtists,#listOfAfisha{
+    
+    background:white;
+    text-align: center;
+    
+}
+
+
+.list{
+    display: flex; 
+    padding: 0;
+    margin: 0;   
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 14px;
+    
+}
+/*Стиль сслыки в верхней части страницы*/
+header a{
+    text-decoration: none;
+    color:inherit;
+}
+/*Стиль ссылки в основной навигации*/
+.main-nav a{
+    color:#18A0FB;
+}
+/*Стиль ссылки в побочной навигации*/
+
+/*Элемент списка в навигации*/
+.item{
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size:20px;
+}
+
+.Button_Enter{
+    color:#18A0FB;
+    padding: 5%;
+    
+    
+    text-align: center;
+    border: 2px solid #18A0FB;
+    
+    border-radius: 6px;
+    text-decoration: none;    
+}
+.Button_Sign{
+    color:#fff;
+    padding: 5%;
+    
+    text-align: center;
+    border: 2px solid #18A0FB;
+    background-color: #18A0FB;
+    
+    border-radius: 6px;
+    text-decoration: none;
+    margin-left: 10px;  
+}
+footer{
+    
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width: 80%;
+    height: auto;
+    margin: auto;     
+    padding-top: 130px; 
+    padding-bottom: 108px;    
+}
+
+footer img{
+    
+    max-width:100%;
+    
+}
+.footer-nav .item{   
+    margin: 20px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+/*Навигация в подвале*/
+.footer-contact .list{
+    padding: 30px 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    
+}
+
+/*Стиль ссылок в подвале*/
+.footer-contact a{
+    color: #000000; 
+    text-decoration: none;  
+}
+.footer-nav a{
+    
+    color: #000000; 
+    text-decoration: none;  
+
+}
+/*Стиль ссылок в подвале при наведении курсора*/
+.footer a::after{
+    text-decoration: underline;
+    color:#fff;
+}
+.footer #logo img{
+    max-width: 80%;
+}
+/*Текст в подвале*/
+.footer-text{
+    text-align: center;
+    margin-top: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */    
+    text-align: center;
+    letter-spacing: -0.015em;
+    
+    color: rgba(0, 0, 0, 0.8);
+    
+}
+@media(max-width:1098px){
+    .item{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    footer{
+        width: 100%;
+    }
+    
+}
+@media(max-width:900px){
+    
+    .item{
+        margin-left: 10px;
+        margin-right: 10px;
+        
+        text-align: center;
+    }
+}
+@media(max-width:850px){
+    header{
+        width:100%;
+    }
+    .main-nav{
+        width:100%;
+        
+    }
+    .main-nav .list{
+        width:100%;
+        justify-content: space-between;
+    }
+    .item{
+        margin-left: 10px;
+        margin-right: 10px;
+        
+        text-align: center;
+    }
+    .footer-contact .list{
+        
+        font-size: 20px;
+    }
+    .secondary-nav{
+        display: flex;
+        width:100%;
+        margin-top:0px;
+        justify-content: flex-end;
+        margin-bottom: 15px;
+    }
+    .secondary-nav .list{
+        flex-wrap: wrap;
+        
+        display: flex;
+
+        
+    }
+    header img{
+        width:50px;
+    }
+    footer .list{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .Button_Sign,.Button_Enter{
+        display: inline-block;
+        
+        margin: 0px;
+        padding: 7px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    
+    
+    
+}
+@media(max-width:850px){
+    header{   
+           
+        flex-wrap: wrap;
+        
+        justify-content: space-around;
+        display: flex;
+    }
+}
+@media(max-width:500px){
+    .secondary-nav{
+        width: 100%;
+    }
+    
+}
