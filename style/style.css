@@ -4,10 +4,10 @@
 }
 
 .glider-contain {
-    width: 90%;
+    width: 80%;
     max-width: 700px;
     margin: 0 auto;
-    
+    padding: 0px;
     padding-bottom: 4%;
     
 }
@@ -333,7 +333,7 @@ main{
     color: rgba(0, 0, 0, 0.8);
 }
 #cons_main{
-    margin-top: 20%;
+    
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -534,7 +534,5 @@ main{
 }
 @media(max-width: 500px)
 {
-   .item{
-	   font-size:16px;
-	}
+   
 }
