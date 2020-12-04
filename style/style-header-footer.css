@@ -247,5 +247,7 @@ footer img{
     .secondary-nav{
         width: 100%;
     }
-    
+    .item{
+        font-size: 18px;
+    }
 }
